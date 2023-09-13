@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="calc.css">
+  
+</head>
+
+<body>
+   
+  <div class="calculator">
+    <input id="result" type="text" >
+    <div class="keypad">
+      <div class="row">
+        <button onclick="displayData('+')" class="operator">+</button>
+        <button onclick="displayData('-')" class="operator">-</button>
+        <button onclick="displayData('*')" class="operator">*</button>
+        <button onclick="displayData('/')" class="operator">/</button>
+      </div>
+      <div class="row">
+        <button onclick="displayData(7)">7</button>
+        <button onclick="displayData(8)">8</button>
+        <button onclick="displayData(9)">9</button>
+      </div>
+      <div class="row">
+        <button onclick="displayData(4)">4</button>
+        <button onclick="displayData(5)">5</button>
+        <button onclick="displayData(6)">6</button>
+      </div>
+      <div class="row">
+        <button onclick="displayData(1)">1</button>
+        <button onclick="displayData(2)">2</button>
+        <button onclick="displayData(3)">3</button>
+      </div>
+      <div class="row">
+        <button onclick="allClear()" class="clear">AC</button>
+        <button onclick="displayData(0)">0</button>
+        <button onclick="findOut()"  class="equal">=</button>
+        <button onclick="backSpace()" class="backspace">&#9003;</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./calc.js"></script>
+</html>
